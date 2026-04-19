@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Početna </title>
+<link rel="stylesheet" href="CSS/udomi.css" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<header>
+<h1>Udomi</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="pocetna.html">Početna</a></li>
+<li><a href="rase.html">Rase</a></li>
+<li><a class="aktivnaStrana" href="udomi.html">Udomi</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</nav>
+
+<div class="forma">
+<fieldset>
+<legend>Lični podaci</legend>
+<form>
+<br><label for="ime">Ime i prezime:</label>
+<input type="text" id="ime" name="ime" placeholder="Unesi ime i prezime" required>
+<br><br><label for="dob">Dob:</label>
+<input type="number" id="dob" name="dob" min="18" max="100" required>
+<br><br><label for="pol">Pol:</label>
+<input type="radio" id="pol" name="pol" value="m" required>Muški
+<input type="radio" id="pol" name="pol" value="f" required>Ženski
+<br><br><label for="adresa">Adresa:</label>
+<input type="text" id="adresa" name="adresa" placeholder="Naziv ulice i broj" required>
+<br><br><label for="email">E-mail:</label>
+<input type="email" id="email" name="emailAdresa" placeholder="Unesi E-mail" required>
+<br><br><label for="tel">Telefon:</label>
+<input type="tel" id="tel" name="telefon" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+</fieldset>
+<br><button type="submit">Pošalji</button>
+<button type="reset">Očisti</button>
+
+</form>
+</div>
+
+
+<footer>
+<p>&copy Tea Dobrijević</p>
+</footer>
+
+
+</body>
+
+</html>

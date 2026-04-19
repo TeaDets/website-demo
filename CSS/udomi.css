@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:white;
+	font-family:Times New Roman;
+}
+
+header{
+	background-color:#A8D5E3;
+	margin:0 auto;
+	width:80%;
+	padding:15px;
+	height:100px;
+	border-radius:15px;
+	color:white;
+	font-size:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-top:5px solid #09007f;
+	
+}
+@media screen and (max-width: 500px) {
+	.header{
+		width: 100%; 
+		height: auto;
+  }
+}
+header h1{
+	padding:5px 40px;
+	font-size:60px;
+	letter-spacing:5px;
+	font-family: "Matemasie", sans-serif;
+	font-style: bold;
+	color:white;
+}
+
+nav ul{
+	background-color:#F2F0EA;
+	list-style-type:none;
+	display:flex;
+	margin: 0 auto;
+	width:80%;
+	justify-content:right;
+	border-radius:15px;
+	font-family: "Matemasie", Times New Roman;
+}
+nav ul li a{
+	background-color:#F2F0EA;
+	text-decoration:none;
+	font-size:18px;
+	padding:10px 8px;
+	color:#0b009f;
+	display:block;
+	border-radius: 15px 0 15px 0;
+}
+nav ul li a:hover{
+	background-color:#A8D5E3;
+	color:white;
+}
+nav ul li a.aktivnaStrana{
+	background-color:#A8D5E3;/*svijetlo plava*/
+	border-top:3px solid #0b009f;/*tamno plava*/
+}
+.forma{
+	width:80%;
+	margin:5px auto;
+	background-color:#ffbcd6;
+	color:#030030;
+	padding:20px 15px;
+	border-radius:15px;
+}
+
+@media screen and (max-width: 500px) {
+	.forma{
+		width: 100%; 
+  }
+}
+footer{
+	width:80%;
+	margin:5px auto;
+	padding: 3px 15px;
+	height:100px;
+	background-color:#A8D5E3;
+	color:#09007f;
+	border-bottom:3px solid #09007f;
+	border-radius:10px;
+	font-family: "Matemasie", Times New Roman;
+	font-size:17pt;
+}
+@media screen and (max-width: 500px) {
+	.footer{
+		width: 100%; 
+		height: auto;
+  }
+}
+
+input[type=text], textarea, input[type=email], input[type=tel]{
+	width:165px;
+	box-sizing:border-box;
+	height:30px;
+	padding: 3px 5px;
+	border:1px solid darkgray;
+	border-radius:5px;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.36);
+}
+input[type=number]{
+	box-sizing:border-box;
+	height:30px;
+	padding: 3px 5px;
+	border:1px solid darkgray;
+	border-radius:5px;
+	box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.36);
+}
+button{
+	width:80px;
+	height:40px;
+	font-size:15px;
+	border:1px solid gray;
+	border-radius:15px;
+	background-image:linear-gradient(#A8D5E3, #9d99d9);
+}
+button:hover{
+	width:80px;
+	height:40px;
+	font-size:15px;
+	border:1px solid #A8D5E3;
+	border-radius:15px;
+	color:white;
+	background-image:linear-gradient(#c2e2eb, #bab8e4);
+}
+form{
+	padding:5px 15px;
+	font-size:18px;
+}
+fieldset{
+	background-color:#ffc9de;
+	border:1px solid #ffc9de;
+	border-radius:15px;
+	font-size:18px;
+}
+legend{
+	font-family: "Matemasie", sans-serif;
+	color:#09007f;
+	font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
